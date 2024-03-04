@@ -37,8 +37,17 @@ def load_data(uploaded_file):
         return None
 
 
-st.set_page_config(page_title="LangChain: Chat with pandas DataFrame", page_icon="🦜")
-st.title("🦜 LangChain: Chat with pandas DataFrame")
+st.set_page_config(page_title="TRIPAI - The AI Assistant for Flights", page_icon="🦜")
+st.title(" TRIPAI - The AI Assistant for Flights")
+
+# insert image as title from local repo
+
+st.image("tripai_logo.jpg", use_column_width=True)
+
+st.write("Welcome to TRIPAI, the AI Assistant for Flights")
+
+
+
 
 uploaded_file = st.file_uploader(
     "Upload a Data file",
