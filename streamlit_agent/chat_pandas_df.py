@@ -44,9 +44,8 @@ st.title(" TRIPAI - The AI Assistant for Flights")
 
 # insert image from url
 
-# st.image("https://media.licdn.com/dms/image/D4D0BAQEJ1eUj2vs1QQ/company-logo_200_200/0/1682513485815/tripai_logo?e=1717632000&v=beta&t=sOIoz18agdTqjRPQDBAPWHSPZN6ttuoCvzKpZlzYzqY", use_column_width=True)
+st.image("https://media.licdn.com/dms/image/D4D0BAQEJ1eUj2vs1QQ/company-logo_200_200/0/1682513485815/tripai_logo?e=1717632000&v=beta&t=sOIoz18agdTqjRPQDBAPWHSPZN6ttuoCvzKpZlzYzqY", use_column_width=True)
 
-st.image("tripai_logo.jpg", use_column_width=True)
 
 st.write("ASK ANY QUESTION ABOUT YOUR FLIGHTS AND TRIPAI WILL HELP YOU!")
 
